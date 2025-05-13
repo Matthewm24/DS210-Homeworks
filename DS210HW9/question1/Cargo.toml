@@ -1,0 +1,11 @@
+[package]
+name = "question1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15"
+ndarray-rand = "0.14"
+rand = "0.8"
+csv = "1.2"
+serde = { version = "1.0", features = ["derive"] }
